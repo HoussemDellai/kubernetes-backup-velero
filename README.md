@@ -8,8 +8,12 @@ This demo will guide through a sample demonstration for how to use Velero to bac
 4) Simulating a cluster disaster like deleting an application
 5) Restoring the application
 
+The following script uses Powershell.
+Guide using Bash is available here: https://github.com/vmware-tanzu/velero-plugin-for-microsoft-azure
+
 ```powershell
-# Install velero on client machine
+# Install velero on client machine (Windows here)
+# doc: https://velero.io/docs/v1.5/basic-install/
 choco install velero
 
 $AZURE_BACKUP_SUBSCRIPTION_NAME="Microsoft Azure #1"
