@@ -17,7 +17,7 @@ Guide using Bash is available here: https://github.com/vmware-tanzu/velero-plugi
 choco install velero
 
 $AZURE_BACKUP_SUBSCRIPTION_NAME="Microsoft Azure #1"
-$AZURE_BACKUP_SUBSCRIPTION_ID="25a98a18-5e94-4b21-9d17-e8cf45bfd81f"
+$AZURE_BACKUP_SUBSCRIPTION_ID=$(az account list --query '[?isDefault].id' -o tsv)
 $AZURE_SUBSCRIPTION_ID=$(az account list --query '[?isDefault].id' -o tsv)
 $AZURE_TENANT_ID=$(az account list --query '[?isDefault].tenantId' -o tsv)
 $AZURE_BACKUP_RESOURCE_GROUP="Velero_Backups"
