@@ -6,11 +6,11 @@ This demo will guide through a sample demonstration for how to use Velero to bac
 2) Installing Velero on Kubernetes 
 3) Creating a backup for YAML and Volumes
 4) Simulating a cluster disaster like deleting an application
-5) Restoring the application
+5) Restoring the application  
 
-The following script uses Powershell.
-Guide using Bash is available here: https://github.com/vmware-tanzu/velero-plugin-for-microsoft-azure
-
+The following script uses Powershell.  
+Guide using Bash is available here: https://github.com/vmware-tanzu/velero-plugin-for-microsoft-azure  
+  
 ```powershell
 # Install velero on client machine (Windows here)
 # doc: https://velero.io/docs/v1.5/basic-install/
